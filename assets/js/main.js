@@ -32,6 +32,11 @@
 				}, 100);
 			});
 
+		// Scrolly.
+			$('.scrolly').scrolly({
+				speed: 1500
+			});
+
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
